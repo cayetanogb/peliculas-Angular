@@ -1,0 +1,9 @@
+<div class="row">
+  <div class="col" *ngFor="let pelicula of peliculas">
+    <app-hero
+      [name]="pelicula.name"
+      [duracion]="pelicula.duracion"
+      [img]="pelicula.img">
+    </app-hero>
+  </div>
+</div>
